@@ -1,0 +1,39 @@
+.addbtn {
+    margin-left: 118px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.addbtn:hover {
+    background-color: #218838;
+    color: white;
+}
+
+@media (max-width: 480px) {
+    .addbtn {
+        font-size: 13px;
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 100%;
+        padding: 10px 0;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .addbtn {
+        width: 20%;
+        margin-top: 40px;
+        padding: 12px 0;
+        font-size: 14px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
